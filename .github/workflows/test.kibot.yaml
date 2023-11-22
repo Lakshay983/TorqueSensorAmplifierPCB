@@ -15,16 +15,14 @@ outputs:
   - name: 'print_sch'
     comment: "Print schematic (PDF)"
     type: pdf_sch_print
-    dir: .
+    dir: "schematic.pdf"
 
   - name: 'interactive_bom'
     comment: "Interactive Bill of Materials (HTML)"
     type: ibom
-    dir: BoM
+    dir: "ibom.html"
 
   - name: step
     comment: "Generate 3D model (STEP)"
     type: step
-    dir: 3D
-    options:
-      metric_units: true
+    dir: "schematic.step"
