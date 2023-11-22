@@ -12,5 +12,5 @@ jobs:
     - uses: INTI-CMNB/KiBot@v2_k7
       with:
         # Required - kibot config file
-        config: test.kibot.yaml
+        config: .github/workflows/test.kibot.yaml
 
