@@ -1,0 +1,10 @@
+name: kicad pcb ops CI
+
+on:
+  push:
+    paths:
+    - '/**.kicad_pcb'
+    - '/**.sch'
+    - '/**.lib'
+    - '/**.dcm'
+    - '/**.pro'
